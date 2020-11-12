@@ -1,9 +1,6 @@
 /*
-
 New Event
-
 http://www.templatemo.com/tm-486-new-event
-
 */
 
 body {
@@ -101,10 +98,9 @@ footer {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 12px;
-    padding: 14px 14px;
-    margin-top: 14px;
-    margin-bottom: 14px;
-    margin-right: 14px;
+    padding: 14px 42px;
+    margin-top: 42px;
+    margin-right: 12px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
@@ -199,14 +195,12 @@ footer {
     background-color: #101010;
 }
 /*
-
 .custom-navbar .navbar-brand {
     color: #ffffff;
     font-weight: 600;
     font-size: 3rem;
     line-height: 40px;
 }
-
 .custom-navbar .nav li a {
     color: #ffffff;
     font-size: 30px;
@@ -216,36 +210,29 @@ footer {
     line-height: 1px;
     transition: all 0.4s ease-in-out;
 }
-
 .custom-navbar .nav li a:hover {
     background: transparent;
     color: #4267b2;
 }
-
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
   background-color: #101010;
 }
-
 .custom-navbar .nav li.active > a {
     background-color: #101010;
     color: #4267b2;
 }
-
 .custom-navbar .navbar-toggle {
     border: none;
     padding-top: 15px;
 }
-
 .custom-navbar .navbar-toggle {
     background-color: #101010;
 }
-
 .custom-navbar .navbar-toggle .icon-bar {
     background: #ffffff;
     border-color: #101010;
 }
-
 @media(min-width:768px) {
     .custom-navbar {
         padding: 0px 0;
@@ -256,10 +243,7 @@ footer {
         background: #101010;
         padding: 0;
     }
-
 }
-
-
 */
 /*---------------------------------------
     Intro section              
@@ -743,4 +727,3 @@ footer {
   }
 
 }
-
