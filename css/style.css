@@ -92,6 +92,7 @@ footer {
 #intro .btn,
 #contact .btn {
     background: #ffffff;
+    border-color: #4267b2;
     border: 2px solid #ffffff;
     border-radius: 0px;
     color: #ffffff;
@@ -128,7 +129,7 @@ footer {
 #intro .btn-default:hover {
     background: transparent;
     color: #333333;
-    border-color: transparent;
+    border-color: #4267b2;
 }
 
 .parallax-section {
