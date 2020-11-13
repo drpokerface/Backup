@@ -92,8 +92,7 @@ footer {
 #intro .btn,
 #contact .btn {
     background: #ffffff;
-    border-color: #4267b2;
-    border: 2px solid #ffffff;
+    border: 2px solid #4267b2;
     border-radius: 0px;
     color: #ffffff;
     font-weight: 600;
