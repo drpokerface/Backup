@@ -535,8 +535,8 @@ footer {
 /*---------------------------------------
    Sponsors section              
 -----------------------------------------*/
-#sponsors img {
-  margin-top: 18px;
+#sponsors  {
+  /*margin-top: 18px;*/
   background: #222222;
 }
 
