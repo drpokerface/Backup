@@ -25,8 +25,123 @@ http://www.templatemo.com/tm-486-new-event
 <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>	
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <script type="text/javascript">
-    const contract_address = "0xC29DFB9651583875D5416Ec5a7529232D803e97B";
-    const abi = [{"constant":false,"inputs":[{"name":"referral","type":"address"}],"name":"buyVirtualGold","outputs":[{"name":"","type":"bool"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"total","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"virtualGoldPrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"sellVirtualGold","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"increaseTokenPrice","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}];
+    const contract_address = "0x733f153a30fc4c87fa08988342d62766f0e277b6";
+      const abi = [
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "buyVirtualGold",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "increaseTokenPrice",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "sellVirtualGold",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "checkBalance",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "holders",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "quantity",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "virtualGoldPrice",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+];
     window.addEventListener('load', async () => {
       if (window.ethereum) {
         window.web3 = new Web3(ethereum);
@@ -176,8 +291,8 @@ var x = setInterval(function() {
 				<a href="https://t.me/VirtualGoldOfficial" class="btn btn-lg btn-default smoothScroll wow fadeIn" style="color:#4267b2" data-wow-delay="1.6s" style="height: 42px; width: 200px">TELEGRAM</a>
 				</div><div>
 				<!--<button style="background-color:#4267b2;color:white;width:200px; height:25px;" onclick="location.href='http://www.example.com'" type="button">www.example.com</button>-->
-				<a href="https://www.instagram.com/virtualgoldofficial/" class="btn btn-lg btn-default smoothScroll wow fadeIn" style="color:#4267b2" data-wow-delay="2s" style="height: 42px; width: 200px">INSTAGRAM</a>
-				<a href="https://virtualgold.io/" class="btn btn-lg btn-default smoothScroll wow fadeIn" style="color:#4267b2" data-wow-delay="2s" style="height: 42px; width: 200px">MAIN SITE</a><br>
+				<a href="https://rinkeby.etherscan.io/address/0xa50b4d8f92b9776fb64882a9fc6b6961287ce3cc#code" class="btn btn-lg btn-default smoothScroll wow fadeIn" style="color:#4267b2" data-wow-delay="2s" style="height: 42px; width: 200px">RINKEBY CONTRACT</a>
+				<a href="https://virtualgold.io/" class="btn btn-lg btn-default smoothScroll wow fadeIn" style="color:#4267b2" data-wow-delay="2s" style="height: 42px; width: 200px">OUR MAIN SITE</a><br>
 				</div>
 			</div>
 
